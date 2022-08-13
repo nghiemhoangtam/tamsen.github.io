@@ -1,0 +1,227 @@
+header {
+    height: 4.8rem;
+    border-bottom: 1px solid #cfd2d4;
+    padding-left: 2.4rem;
+}
+
+header>div {
+    display: flex;
+    height: inherit;
+    align-items: center;
+}
+
+main {
+    background-color: #fff;
+    border-bottom: 1px solid #cfd2d4;
+}
+
+.container {
+    max-width: 80%;
+    margin: 8rem auto;
+    display: flex;
+}
+
+.container-item {
+    flex-basis: 50%;
+    width: 50%;
+}
+
+#left {
+    padding: 0rem 2.4rem;
+}
+
+#welcome-header,
+#welcome-content {
+    margin-right: 2.4rem;
+}
+
+#welcome-header>h1 {
+    /* color: #6f787e; */
+    font-weight: 700;
+    color: #0f1e29;
+    letter-spacing: .015rem;
+    font-size: 3.6rem;
+    margin-bottom: 3rem !important;
+    margin-top: 1.6rem;
+}
+
+#welcome-header>h2 {
+    font-size: 2.4rem;
+    color: #6f787e;
+    font-weight: 700;
+    line-height: 3.2rem;
+}
+
+#left img {
+    width: 100%;
+    height: auto;
+}
+
+#right {
+    border-radius: 0.8rem!important;
+    border: 0.1rem solid #cfd2d4;
+    min-height: 66rem;
+}
+
+.form-header {
+    display: flex;
+}
+
+.form-header>button {
+    padding: 1.6rem 4rem;
+    line-height: 1.38;
+    font-size: 16px;
+    border: none;
+    background-color: #fff;
+    border-bottom: 2px solid #e7e8ea;
+    font-weight: 700;
+}
+
+.active {
+    color: #ee2624;
+    border-bottom: 2px solid #ee2624 !important;
+    background-color: #f2f3f4 !important;
+}
+
+.form-header>button:hover {
+    cursor: pointer;
+    background-color: #f2f3f4;
+}
+
+.form-content {
+    padding: 2.4rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.form-group>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group-item {
+    margin-bottom: 0.8rem;
+}
+
+.password-box {
+    border: 1px solid #cfd2d4;
+    border-radius: 4px;
+}
+
+.password-box:hover,
+.password-box:focus-within {
+    border: 1px solid #3f81fe;
+}
+
+.password-box:focus-within {
+    box-shadow: 0 0 0 1px #3f81fe;
+}
+
+.password-box .input-text {
+    border: none;
+}
+
+.container-icon {
+    padding: 0 1.6rem;
+    display: flex;
+    align-items: center;
+}
+
+.container-icon svg {
+    color: #b7bbbf;
+    fill: currentColor;
+}
+
+.break {
+    display: flex;
+    align-items: center;
+    color: #6f787e;
+    margin-bottom: 2rem;
+}
+
+.break>span {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+}
+
+.break>div {
+    flex-grow: 1;
+    border-bottom: 1px solid #e7e8ea;
+}
+
+.form-group>button {
+    display: flex;
+    align-items: center;
+    padding: 1.3rem 1.6rem;
+    background-color: #e7e8ea;
+    color: #3f4b53;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    transition: background .25s ease, color .25s ease;
+    cursor: pointer;
+}
+
+.form-group>button:hover {
+    background-color: #f2f3f4;
+}
+
+.form-group>button>img {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.form-group>button>span {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+
+/* ------------footer----------- */
+
+footer {
+    padding: 2.4rem;
+}
+
+footer>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#information {
+    display: flex;
+    align-items: center;
+}
+
+#information>img {
+    padding-right: 2.4rem;
+    height: 4.8rem;
+    width: 11.2rem;
+}
+
+#sendo-app {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+#sendo-app img {
+    margin-left: 0.8rem;
+    margin-bottom: 0.8rem;
+    height: 4rem;
+    width: 12rem;
+}
+
+.address {
+    color: #3f4b53;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.address.header {
+    font-size: 14px;
+}
